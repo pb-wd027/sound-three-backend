@@ -1,0 +1,22 @@
+{
+  "name": "sound-three-backend",
+  "version": "1.0.0",
+  "description": "sound-three-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pb-wd027/sound-three-backend.git"
+  },
+  "author": "Paul Bauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pb-wd027/sound-three-backend/issues"
+  },
+  "homepage": "https://github.com/pb-wd027/sound-three-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
