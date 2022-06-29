@@ -3,29 +3,137 @@ body {
   height: 100vh;
   box-sizing: border-box;
 }
-.navbar {
-  background: pink;
-  height: 60px;
+.Header {
   width: 100%;
+  height: 60px;
+  background-color: black;
+
+}
+
+.inner_header{
+  width: 90%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  margin: 0px 10px;
+  /* background-color: brown; */
+  float: left;
+
+}
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+  margin: 2px;
+}
+
+/* .logo_container h1{
+  color: antiquewhite;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Magneto;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+} */
+
+.navigation{
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 50px;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  justify-content: space-around;
+  height: 100%;
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 550;
+  font-size: 16px;
+  
+}
+a {
+  box-shadow: inset 0 0 0 0 rgb(120, 120, 120, 0.2);
+  color: rgb(120, 120, 120, 0.2);
+  padding: 0 .25rem;
+  margin: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  color: rgb(120, 120, 120, 0.2);
+  box-shadow: inset 200px 0 0 0 rgb(120, 120, 120, 0.2);
+}
+
+.search_box {
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin: 0px 50px;
+  height: 35px;
+  line-height: 35px;    
+}
+.search_box input{
+  border: none;
+  outline: none;
+  background: antiquewhite;
+  height: 100%;
+  margin: 12px;
+  padding: 0 20px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+  width: 250px;
+  border-radius: 25px;
+}
+.search_box button{
+  border: none;
+  outline: none;
+  height: 100%;
+  margin: 12px 0px;
+  padding: 0 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  background: antiquewhite;
 }
 .sidebar {
-  background: yellow;
+  background: #999;
   height: 100%;
   width: 200px;
+  line-height: 25px;
+  padding: 10px;
+  
 }
 .song-list {
   background: cyan;
   height: 100%;
   width: 100%;
   overflow-y: scroll;
+  
 }
 .song {
   display: flex;
   justify-content: space-between;
+  
+  padding: 20px;
 }
 .main {
   display: flex;
   height: calc(100% - 60px);
+  
 }
 .App {
   height: 100vh;
