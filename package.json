@@ -2,7 +2,6 @@
   "name": "sound-three-backend",
   "version": "1.0.0",
   "description": "sound-three-backend",
-
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/pb-wd027/sound-three-backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.18"
   }
