@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000;
 
 //GET -> "welcome msg"
 app.get("/", (req, res) => 
-    res.send(`<h1>Welcome to the SoundThree</h1>`)
+    res.send(`<h1>Welcome to SoundThree</h1>`)
 );
 
 //GET /data -> json database
