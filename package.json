@@ -2,7 +2,7 @@
   "name": "sound-three-backend",
   "version": "1.0.0",
   "description": "sound-three-backend",
-  "type": "module",
+
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
